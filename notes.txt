@@ -1,0 +1,3 @@
+jo json webtoken ha usko khi bhi rkh skte ha like....cookies or headers
+
+Cookies are small pieces of data stored on the client side (usually in the browser) and sent back to the server with every request.

@@ -20,5 +20,7 @@ const userSchema = new mongoose.Schema({
 },{timestamps:true , minimize:false})
 
 const User = mongoose.model("User",userSchema)
+// minimize: false tells Mongoose not to remove empty objects from the document.
+// By default (minimize: true), Mongoose removes empty objects when saving to the database.
 
 export default User
